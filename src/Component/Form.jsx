@@ -20,7 +20,7 @@ const handlechange=(e)=>{
 
 const sendQuestion= async()=>{
      try {
-        const res = await axios.post("http://localhost:3000/api/compare",{
+        const res = await axios.post("https://question-pairing-system-backend.onrender.com/api/compare",{
          question
         });
         console.log(res);
